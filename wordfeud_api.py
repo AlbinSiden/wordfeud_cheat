@@ -51,6 +51,6 @@ class WordfeudAPI:
 
 api = WordfeudAPI()
 
-sid = api.login('abbezidde@gmail.com', "Snoddas42!")
+sid = api.login('abbezidde@gmail.com', "test!")
 print(sid)
 boards = api.get_boards(sid)
